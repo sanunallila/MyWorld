@@ -1,0 +1,40 @@
+Test Case 1: Basic Functionality
+--------------------------------
+Input: A list of words: "dh7js4jf or2rjvn2w h1n36mfl a7e6fw"
+Expected Output: 13
+
+Test Case 2: No Digits in Words
+--------------------------------
+Input: A list of words: "hello world"
+Expected Output: 0.
+
+
+Test Case 3:  Mixed Alphanumeric Strings
+----------------------------------------
+Input: A list of words: "abc123 xyz45"
+Expected Output: 9
+
+Test Case 4: Single Word with Digits
+-----------------------------------
+Input:A single word: "a1b2c3"
+Expected Output: 6
+
+Test Case 5: All Digits
+-----------------------
+Input: A list of words: "123 456 789"
+Expected Output: 24
+
+Test Case 6: More Than 10 Words
+--------------------------------
+Input: A list of words: "a1 b2 c3 d4 e5 f6 g7 h8 i9 j0 k1"
+Expected Output:  An IllegalArgumentException should be thrown with the message "Maximum number of words allowed is 10".
+
+Test Case 7: Word Longer Than 12 Characters
+-------------------------------------------
+Input: A list of words: "abcdefghijklm1"
+Expected Output: An IllegalArgumentException should be thrown with the message "Length of each word needs to be less than 12".
+
+Test Case 8: Empty Input
+-------------------------
+Input: An empty input: ""
+Expected Output: 0.

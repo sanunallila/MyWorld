@@ -1,0 +1,42 @@
+
+Requirements:-
+************
+
+Java Development Kit (JDK) version 8 or higher.
+
+Features:-
+********
+    Reads a list of words from user input.
+    Validates that the input does not exceed 10 words and that each word is no longer than 12 characters.
+    Calculates the sum of digits in each word.
+    Returns the word with the highest sum of digits.
+
+Explanation of Functions:-
+************************
+
+1) main:
+    Reads user input.
+    Splits the input into an array of words.
+    Validates the input.
+    Prints the word with the largest sum of digits.
+
+2) ValidateTheInputs:
+    Ensures the input array does not exceed 10 words.
+    Ensures each word does not exceed 12 characters.
+
+3) getLargestSumOfDigits:
+    Iterates through each word in the array.
+    Calculates the sum of digits in each word.
+    Determines the maximum sum of digits.
+
+4) sumOfDigitsInWord:
+    Iterates through each character in a word.
+    Checks if the character is a digit.
+    Adds the numeric value of each digit to the sum.
+
+Error Handling
+***************
+    The program throws an IllegalArgumentException if the input does not meet the specified constraints
+     (e.g., more than 10 words, any word longer than 12 characters).
+
+
